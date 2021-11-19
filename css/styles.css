@@ -15,6 +15,7 @@
   --basic-background-color: #ffffff;
   --secondary-background-color: #2f303a;
   --team-background-color: #f5f4fa;
+  --logo-header-color:#000000;
 }
 
 body {
@@ -34,17 +35,13 @@ body {
 
 /*логотип в хедере */
 
-.logo,
-.web-logo {
+.logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-}
-
-.logo {
-  color: #000000;
+  color: var(--logo-header-color);
 }
 
 .web-logo {
@@ -58,23 +55,20 @@ body {
 
 /* Меню nav в хедере */
 
-.nav-site .link
- {
-  color: var(--secondary-text-color);
-
+.nav > .list .link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  text-decoration: none;
   letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
  }
 
-.nav-site .link:hover,
-.nav-site .link:focus {
+.nav > .list .link:hover,
+.nav > .list .link:focus {
   color: var(--accent-color);
 }
 
-.nav-site link.current {
+.nav > .list .link.current {
   color: var(--accent-color);
 }
 
