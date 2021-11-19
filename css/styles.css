@@ -1,5 +1,5 @@
-/* цвет текста #757575 */
-/*  цвет заголовков текста #212121 */
+/* цвет текста основной #757575 */
+/*  цвет вторичный для заголовков текста #212121 */
 /* основной фон #ffffff */
 /* дополнительный фон блока team  #f5f4fa */
 /* цвет web-лого, кнопок под курсором, активных ссылок #2196f3 */
@@ -65,7 +65,7 @@ body {
   line-height: 1.14;
   text-decoration: none;
   letter-spacing: 0.02em;
-  color: var(--second-text-color)
+  color: var(--basic-text-color)
 }
 
 .nav-site .link:hover,
