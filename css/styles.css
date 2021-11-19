@@ -60,13 +60,14 @@ body {
 
 .nav-site .link
  {
+  color: var(--secondary-text-color);
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   text-decoration: none;
   letter-spacing: 0.02em;
-  color: var(--basic-text-color)
-}
+ }
 
 .nav-site .link:hover,
 .nav-site .link:focus {
