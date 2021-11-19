@@ -156,6 +156,7 @@ body {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+  color: var(--secondary-text-color);
 }
 .team-person-role {
   font-size: 16px;
@@ -174,7 +175,7 @@ body {
   text-align: center;
   border-style: none;
   background-color: var(--additional-background-color);
-  color: var(--second-text-color);
+  color: var(--secondary-text-color);
 }
 .filters .item:hover,
 .filters .item:focus {
