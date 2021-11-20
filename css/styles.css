@@ -1,11 +1,11 @@
 /* цвет текста основной #757575 */
-/*  цвет вторичный для заголовков текста #212121 */
+/*  цвет текста вторичный для заголовков #212121 */
 /* основной фон #ffffff */
 /* дополнительный фон блока team  #f5f4fa */
 /* цвет web-лого, кнопок под курсором, активных ссылок #2196f3 */
 /* фон героя и футера #2f303a */
 /* цвет studio-лого  вверху  #000000 */
-/* цвет studio-лого внизу   #ffffff */
+/* цвет адреса, studio-лого внизу   #ffffff */
 /* hover кнопки "Заказать услугу" #188ce8 */
 
 :root {
@@ -16,6 +16,7 @@
   --secondary-background-color: #2f303a;
   --team-background-color: #f5f4fa;
   --logo-header-color:#000000;
+  --logo-footer-color:#ffffff;
 }
 
 body {
@@ -210,32 +211,31 @@ body {
 
 .footer {
   background-color: var(--secondary-background-color);
-  color: var(--basic-background-color);
 }
 
 
-.footer-logo {
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  text-decoration: none;
-}
 
 /* адрес и контакты в футере */
+
+
+.footer > .logo {
+  color: var(--logo-footer-color);
+}
+
 
 .contacts-footer .link {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
 }
 
-
-
-
-.footer-logo:hover,
-.footer-logo:focus {
-  color: var(--accent-color);
+.contacts-footer {
+  color: var(--address-color);
+  font-style: normal;
 }
+.contacts-footer .link {
+  color: var(--address-secondary-color);
+}
+
 
 
 
