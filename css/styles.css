@@ -223,7 +223,7 @@ body {
 /* адрес и контакты в футере */
 
 .contacts-footer {
-  color: var(--addressdown-color);
+  color:#ffffff;
   font-style: normal;
 }
 
