@@ -17,6 +17,8 @@
   --team-background-color: #f5f4fa;
   --logo-header-color:#000000;
   --logo-footer-color:#ffffff;
+  --addressdown-color:#ffffff;
+  --secondary-addressdown-color:rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -71,7 +73,6 @@ body {
 .nav > .list .link:focus {
   color: var(--accent-color);
 }
-
 .nav > .list .link.current {
   color: var(--accent-color);
 }
@@ -213,19 +214,21 @@ body {
   background-color: var(--secondary-background-color);
 }
 
-
-
-/* адрес и контакты в футере */
-
+/* logo в футере */
 
 .footer > .logo {
   color: var(--logo-footer-color);
 }
 
+/* адрес и контакты в футере */
+
+.contacts-footer {
+  color: var(--addressdown-color);
+  font-style: normal;
+}
 
 .contacts-footer .link {
-    color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
+    color:var(--secondary-addressdown-color);
 }
 
 .contacts-footer {
@@ -236,6 +239,10 @@ body {
   color: var(--address-secondary-color);
 }
 
+.contacts-footer .link:hover,
+.contacts-footer .link:focus {
+  color: var(--accent-color);
+}
 
 
 
