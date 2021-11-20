@@ -231,14 +231,6 @@ body {
     color:var(--secondary-addressdown-color);
 }
 
-.contacts-footer {
-  color: var(--address-color);
-  font-style: normal;
-}
-.contacts-footer .link {
-  color: var(--address-secondary-color);
-}
-
 .contacts-footer .link:hover,
 .contacts-footer .link:focus {
   color: var(--accent-color);
