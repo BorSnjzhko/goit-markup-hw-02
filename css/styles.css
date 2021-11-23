@@ -1,4 +1,4 @@
-/* цвет текста основной #757575 */
+/* цвет текста параграфов основной #757575 */
 /*  цвет текста вторичный для заголовков #212121 */
 /* основной фон #ffffff */
 /* дополнительный фон блока team  #f5f4fa */
@@ -190,22 +190,27 @@ body {
   display: none;
 }
 
-.project-title {
+.projects a {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+}
+
+
+.projects h2 {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--secondary-text-color);
 }
-.project-text {
+
+.projects p {
   font-size: 16px;
   line-height: 1.87;
   color: var(--basic-text-color);
 }
 
-.project-link {
-  text-decoration: none;
-}
+
 
 /* Футер */
 
