@@ -72,7 +72,7 @@ body {
 .nav > .list .link:focus {
   color: var(--accent-color);
 }
-.nav > .list .link.current {
+.nav-site .link.current {
   color: var(--accent-color);
 }
 
