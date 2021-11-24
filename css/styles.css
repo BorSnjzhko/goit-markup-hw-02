@@ -19,6 +19,7 @@
   --logo-footer-color:#ffffff;
   --addressdown-color:#ffffff;
   --secondary-addressdown-color:rgba(255, 255, 255, 0.6);
+  --button-hero-hover-color:#188ce8;
 }
 
 body {
@@ -123,7 +124,7 @@ body {
 
 .button-hero:hover,
 .button-hero:focus {
-  color: #188ce8;
+  color: var(--button-hero-hover-color);
 }
 
 /* Особенности (features)   */
