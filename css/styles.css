@@ -119,6 +119,8 @@ body {
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: var(--basic-background-color);
+
+  cursor: pointer;
 }
 
 
