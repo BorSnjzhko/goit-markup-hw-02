@@ -6,7 +6,7 @@
 /* фон героя и футера #2f303a */
 /* цвет studio-лого  вверху  #000000 */
 /* цвет адреса, studio-лого внизу   #ffffff */
-/* hover кнопки "Заказать услугу" #188ce8 */
+
 
 :root {
   --basic-text-color: #757575;
@@ -122,10 +122,7 @@ body {
   color: var(--basic-background-color);
 }
 
-.button-hero:hover,
-.button-hero:focus {
-  color: var(--button-hero-hover-color);
-}
+
 
 /* Особенности (features)   */
 
